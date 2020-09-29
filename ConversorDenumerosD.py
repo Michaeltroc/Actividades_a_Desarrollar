@@ -17,7 +17,7 @@ def decimalahexadecimal():
 
 print('CONVERSOR DE NUMEROS A DECIMALES')
 opc = int(input('MENU\n\n1.decimal a binario\n2.decimal a octal\n3.decimal a hexadecimal\n\nIngrese una opcion:'))
-diccionario ={1:decimalabinario, 2:decimalaoctal,3:decimalahexadecimal()}
+diccionario ={1:decimalabinario, 2:decimalaoctal,3:decimalahexadecimal}
 try:
     diccionario[opc]()
 except:
